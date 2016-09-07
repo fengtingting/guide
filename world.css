@@ -1,0 +1,518 @@
+@charset "utf-8";
+.colorf{
+    color: #fff;
+}
+.font14{
+}
+.font16{
+    font-size: 16px;
+}
+.color37{
+    color: #3776d3;
+}
+.zf-main {
+    position: relative;
+    width: 100%;
+   /* background: url(http://images.cecb2b.com/js/common-service/cj-bg.jpg) center center no-repeat;width: 100%;height: 100%;background-size: cover;*/
+}
+
+.zf-main img {
+    width: 100%;
+    height: auto;
+}
+
+.zf-main .logo {
+    width: 359px;
+    height: 42px;
+    background: url(http://images.cecb2b.com/images/common-service/zf-logo.png);
+    position: absolute;
+    top: 80px;
+    left: 90px;
+}
+
+.zf-main .zf-wrap {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+}
+
+.zf-main .china-wrap{
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+}
+/*圆点*/
+.point-area .point {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    -webkit-border-radius: 50%;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 50%;
+    -moz-background-clip: padding;
+    border-radius: 50%;
+    background-clip: padding-box;
+    background: transparent;
+}
+.point-area .point-dot {
+    background-color: #6AD7E9;
+    border: 1px solid rgba(0, 205, 236, 0.37);
+}
+
+.point-area .point1 {
+    width: 10px;
+    height: 10px;
+}
+.point-area .point2{
+width: 20px;
+height: 20px;
+}
+.point-area .point-dot1 {
+    background-color: #6AD7E9;
+    border: 1px solid rgba(0, 205, 236, 0.2);
+}
+.point-area .point-10 {
+  width: 100%;
+  height: 100%;
+}
+.point-area .point-10:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #00cdec;
+  opacity: 0;
+  -webkit-animation: ripple 4500ms ease-out 225ms infinite;
+  -moz-animation: ripple 4500ms ease-out 225ms infinite;
+  -o-animation: ripple 4500ms ease-out 225ms infinite;
+  animation: ripple 4500ms ease-out 225ms infinite;
+}
+.point-area .point-20 {
+  width: 100%;
+  height: 100%;
+}
+.point-area .point-20:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #00cdec;
+  opacity: 0;
+  -webkit-animation: ripple 4500ms ease-out 450ms infinite;
+  -moz-animation: ripple 4500ms ease-out 450ms infinite;
+  -o-animation: ripple 4500ms ease-out 450ms infinite;
+  animation: ripple 4500ms ease-out 450ms infinite;
+}
+.point-area .point-30 {
+  width: 100%;
+  height: 100%;
+}
+.point-area .point-30:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #00cdec;
+  opacity: 0;
+  -webkit-animation: ripple 4500ms ease-out 675ms infinite;
+  -moz-animation: ripple 4500ms ease-out 675ms infinite;
+  -o-animation: ripple 4500ms ease-out 675ms infinite;
+  animation: ripple 4500ms ease-out 675ms infinite;
+}
+.point-area .point-40 {
+  width: 100%;
+  height: 100%;
+}
+.point-area .point-40:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #00cdec;
+  opacity: 0;
+  -webkit-animation: ripple 4500ms ease-out 900ms infinite;
+  -moz-animation: ripple 4500ms ease-out 900ms infinite;
+  -o-animation: ripple 4500ms ease-out 900ms infinite;
+  animation: ripple 4500ms ease-out 900ms infinite;
+}
+.point-area .point-50 {
+  width: 100%;
+  height: 100%;
+}
+.point-area .point-50:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #00cdec;
+  opacity: 0;
+  -webkit-animation: ripple 4500ms ease-out 1125ms infinite;
+  -moz-animation: ripple 4500ms ease-out 1125ms infinite;
+  -o-animation: ripple 4500ms ease-out 1125ms infinite;
+  animation: ripple 4500ms ease-out 1125ms infinite;
+}
+.point-area .point-60 {
+  width: 100%;
+  height: 100%;
+}
+.point-area .point-60:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #00cdec;
+  opacity: 0;
+  -webkit-animation: ripple 4500ms ease-out 1350ms infinite;
+  -moz-animation: ripple 4500ms ease-out 1350ms infinite;
+  -o-animation: ripple 4500ms ease-out 1350ms infinite;
+  animation: ripple 4500ms ease-out 1350ms infinite;
+}
+.point-area .point-70 {
+  width: 100%;
+  height: 100%;
+}
+.point-area .point-70:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #00cdec;
+  opacity: 0;
+  -webkit-animation: ripple 4500ms ease-out 1575ms infinite;
+  -moz-animation: ripple 4500ms ease-out 1575ms infinite;
+  -o-animation: ripple 4500ms ease-out 1575ms infinite;
+  animation: ripple 4500ms ease-out 1575ms infinite;
+}
+.point-area .point-80 {
+  width: 100%;
+  height: 100%;
+}
+.point-area .point-80:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #00cdec;
+  opacity: 0;
+  -webkit-animation: ripple 4500ms ease-out 1800ms infinite;
+  -moz-animation: ripple 4500ms ease-out 1800ms infinite;
+  -o-animation: ripple 4500ms ease-out 1800ms infinite;
+  animation: ripple 4500ms ease-out 1800ms infinite;
+}
+.point-area .point-90 {
+  width: 100%;
+  height: 100%;
+}
+.point-area .point-90:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #00cdec;
+  opacity: 0;
+  -webkit-animation: ripple 4500ms ease-out 2025ms infinite;
+  -moz-animation: ripple 4500ms ease-out 2025ms infinite;
+  -o-animation: ripple 4500ms ease-out 2025ms infinite;
+  animation: ripple 4500ms ease-out 2025ms infinite;
+}
+.point-area .point-100 {
+  width: 100%;
+  height: 100%;
+}
+.point-area .point-100:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #00cdec;
+  opacity: 0;
+  -webkit-animation: ripple 4500ms ease-out 2250ms infinite;
+  -moz-animation: ripple 4500ms ease-out 2250ms infinite;
+  -o-animation: ripple 4500ms ease-out 2250ms infinite;
+  animation: ripple 4500ms ease-out 2250ms infinite;
+}
+
+.area-right {
+  display: block;
+
+  -webkit-animation: right 1500ms ease-in-out 0ms 1;
+  -moz-animation: right 1500ms ease-in-out 0ms 1;
+  -o-animation: right 1500ms ease-in-out 0ms 1;
+  animation: right 1500ms ease-in-out 0ms 1;
+}
+@-webkit-keyframes ripple {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.1, 0.1);
+    }
+    5% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1)
+    }
+}
+
+@-moz-keyframes ripple {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(0.1, 0.1);
+    }
+    5% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -moz-transform: scale(1)
+    }
+}
+
+@-o-keyframes ripple {
+    0% {
+        opacity: 0;
+        -o-transform: scale(0.1, 0.1);
+    }
+    5% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -o-transform: scale(1)
+    }
+}
+
+@keyframes ripple {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.1, 0.1);
+        -moz-transform: scale(0.1, 0.1);
+        -ms-transform: scale(0.1, 0.1);
+        transform: scale(0.1, 0.1);
+    }
+    5% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes right {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    100% {
+          -webkit-transform: translate3d(-100%, 0, 0);
+    }
+}
+
+
+.point-area .tips{
+    width: 224px;
+    height: 40px;
+    background: #0c2344;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: -58px;
+    margin-top: -20px;
+
+}
+.point-area .tips .arrow_out{
+    z-index: 9999;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    border-style: dashed;
+    border-color: transparent;
+    border-bottom-width: 0;
+    border-top-color: #0c2344;
+    border-top-style: solid;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+.point-area .tips .arrow_in{
+    z-index: 9999;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    border-style: dashed;
+    border-color: transparent;
+    border-bottom-width: 0;
+    border-top-color: #0c2344;
+    border-top-style: solid;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+.point-area .tips em{
+  font-style: normal;
+}
+
+.right-wrap{
+    position: absolute;
+    /* right: 0px; */
+    top: 15%;
+    right: 0px;
+    width: 380px;
+    height: auto;
+    /*    background: red;*/
+}
+.right-wrap ul li .china-text{float: left;display: inline-block;font-size: 3em;color: #fff;}
+.right-wrap ul li .adv-text{font-size: 9px;color: #fff;display: inline-block;margin-top: 10px;line-height: 20px;margin-left: 10px;}
+.right-wrap ul li .cj-cont{
+    height: 142px;
+    background: #1d2030;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.right-wrap ul li .cj-cont .point{
+width: 8px;
+height: 8px;
+display: inline-block;
+background: url(http://images.cecb2b.com/images/common-service/point.gif) center center;
+margin-right: 8px;
+}
+.right-wrap ul li .cj-cont  h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.right-wrap ul li .cj-cont  p{
+    height: 20px;
+    margin-top: 10px;
+}
+
+.right-wrap ul li .maket{
+    margin-top: 10px;
+    /* width: 100%; */
+    height: 248px;
+    background: #1d2030;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.right-wrap ul li .maket dl{
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.right-wrap ul li .maket h2{
+font-size: 18px;
+margin-bottom: 20px;
+}
+/*.right-wrap ul li .maket dt{
+    width: 148px;
+    height: 96px;
+    margin-bottom: 20px;
+}*/
+.right-wrap ul li .maket dt{
+        float: left;
+    /* width: 83px; */
+    /* height: 20px; */
+    margin-right: 10px;
+}
+.right-wrap ul li .maket dt .add-icon{
+width: 14px;
+height: 18px;
+display: inline-block;
+background: url(http://images.cecb2b.com/images/common-service/add.gif) center center;
+    margin-right: 8px;
+}
+.right-wrap ul li .maket dd{
+    /* float: left; */
+    width: 221px;
+    margin-left: 87px;
+}
+.right-wrap ul li .maket dd a{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    color: #3776D3;
+}
+.right-wrap ul li .maket dd a:hover{
+  text-decoration: underline;
+}
+.enter{
+    margin-left: 20px;
+    height: 78px;
+    border: 1px solid #3776d3;
+    line-height: 78px;
+    font-size: 24px;
+    color: #3776d3;
+    text-align: center;
+    cursor: pointer;
+}
+.flex{
+display: flex;
+}
+
+/*中国地图*/
+.zg-main .logo{
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    background: #0d1027;
+    border: 1px solid #3776d3;
+    line-height: 35px;
+    font-size: 1.5em;
+    color: #3776d3;
+    text-align: center;
+    cursor: pointer;
+}
